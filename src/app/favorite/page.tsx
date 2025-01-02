@@ -8,11 +8,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { Product } from "../../../type";
 import { clearFavorite, removeFavorite } from "@/store/cartSlice";
 
-type Props = {
-  product: Product;
-};
-
-const Favorite = ({ product }: Props) => {
+const Favorite = () => {
   const fav = useSelector((state: RootState) => state.cart.favoriteData);
   const dispatch = useDispatch();
 
