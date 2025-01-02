@@ -1,5 +1,5 @@
 "use client";
-import { Fullscreen } from "lucide-react";
+
 import Image from "next/image";
 import sliderImg_1 from "../../public/sliderImg_1.jpg";
 import sliderImg_2 from "../../public/sliderImg_2.jpg";
