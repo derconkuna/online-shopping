@@ -91,7 +91,7 @@ const Header = ({ product }: Props) => {
               )}
             </div>
 
-            <Link href={"/favorite"}>
+            <Link href={`/favorite`}>
               <div className=" relative">
                 <p className=" text-stone-300 text-sm">Marked</p>
                 <p className=" text-white text-sm font-semibold">&Favorite</p>
