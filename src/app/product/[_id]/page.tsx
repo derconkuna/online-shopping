@@ -2,8 +2,9 @@
 
 import { addToCart, addToFavorite } from "@/store/cartSlice";
 import Image from "next/image";
-import { useRouter } from 'next/navigation'
+//import { useRouter } from 'next/navigation'
 import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 import { useDispatch } from "react-redux";
 import { Product } from "../../../../type";
 
