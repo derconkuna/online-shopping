@@ -9,11 +9,7 @@ import { RootState } from "@/store/store";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { Product } from "../../../type";
 
-type Props = {
-  product: Product;
-};
-
-const Header = ({ product }: Props) => {
+const Header = () => {
   const { data: session } = useSession();
   const items = useSelector((state: RootState) => state.cart.productData);
   const favItems = useSelector((state: RootState) => state.cart.favoriteData);

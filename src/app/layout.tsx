@@ -6,6 +6,7 @@ import HeaderBottom from "@/components/header/HeaderBottom";
 import Footer from "@/components/header/Footer";
 import StoreProvider from "@/storeProvider/StoreProvider";
 import SessionWrapper from "@/components/SessionWrapper";
+import Products from "@/components/Products";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,7 +27,7 @@ export default function RootLayout({
         <html lang="en">
           <body className={inter.className}>
             <div className=" sticky top-0 z-50">
-              <Header />
+              <Header  />
 
               <HeaderBottom />
             </div>
