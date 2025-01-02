@@ -17,7 +17,7 @@ const DynamicPage = () => {
     setTimeout(() => {
       setIsLoading(false);
     }, 2000);
-    setProduct(router);
+    setProduct(router.query);
   }, [router.query]);
   return (
     <div className="max-w-screen-xl mx-auto px-4 py-4 md:py-10">

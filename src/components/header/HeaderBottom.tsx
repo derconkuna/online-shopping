@@ -14,7 +14,7 @@ const HeaderBottom = () => {
           <Text />
           <p>All</p>
         </div>
-        <Link href={'/todays-deals'}>
+        <Link href={`/todays-deals`}>
           <p className=" hidden md:inline-flex text-center cursor-pointer hover:border-[1px] p-1">
             Todays's Deals
           </p>

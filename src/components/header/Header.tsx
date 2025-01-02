@@ -24,7 +24,7 @@ const Header = ({ product }: Props) => {
       <div className=" flex items-center justify-between">
         {/* Logo */}
         <div className=" ">
-          <Link href={"/"}>
+          <Link href={`/`}>
             <Image
               src="/logo.png"
               alt=""
@@ -102,11 +102,11 @@ const Header = ({ product }: Props) => {
               </div>
             </Link>
 
-            <Link href={"/cart"}>
+            <Link href={`/cart`}>
               <div className=" flex items-center gap-1">
                 <div className=" relative">
                   <Image
-                    src={"/cartIcon.png"}
+                    src={`/cartIcon.png`}
                     alt=""
                     width={20}
                     height={20}
